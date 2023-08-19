@@ -25,7 +25,5 @@ for i in range(1,11):
     img[mask_burnt>0]=(0,255,255)
 
     cv2.imshow("img"+str(i),img)
-    # cv2.imshow("res",res)
-    # cv2.imshow("mask",mask)
     cv2.waitKey(0)
         
